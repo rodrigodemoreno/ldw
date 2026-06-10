@@ -1,0 +1,43 @@
+/* style2.css */
+body {
+    background-color: #1e272e; /* Fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.contenedor-botones {
+    display: flex;
+    gap: 20px; /* Espacio entre los botones */
+}
+
+/* Estilos base para todos los botones */
+.btn {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    /* La magia de la animación: propiedad, duración, tipo de curva */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Variaciones de colores */
+.btn-exito { background-color: #2ed573; }
+.btn-peligro { background-color: #ff4757; }
+.btn-info { background-color: #1e90ff; }
+
+/* Efectos al pasar el mouse (:hover) */
+.btn-exito:hover { background-color: #26af5f; transform: translateY(-3px); }
+.btn-peligro:hover { background-color: #e03d49; transform: translateY(-3px); }
+.btn-info:hover { background-color: #1c7cd6; transform: translateY(-3px); }
+
+/* Efecto al hacer clic (:active) */
+.btn:active {
+    transform: translateY(1px); /* Baja un poquito, simulando una pulsación real */
+}
