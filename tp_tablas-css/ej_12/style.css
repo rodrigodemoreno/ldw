@@ -1,0 +1,18 @@
+table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: sans-serif;
+    }
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd; /* Solo línea inferior */
+    }
+    th {
+        background-color: #111;
+        color: white;
+    }
+    /* Aplica fondo gris claro solo a las filas pares (even) */
+    tbody tr:nth-child(even) {
+        background-color: #f8f9fa;
+    }

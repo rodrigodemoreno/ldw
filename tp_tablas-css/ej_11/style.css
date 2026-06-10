@@ -1,0 +1,15 @@
+table {
+        width: 100%;
+        max-width: 400px;
+        border-collapse: collapse; /* Elimina el doble borde */
+        font-family: Arial, sans-serif;
+    }
+    th, td {
+        border: 1px solid #bcbcbc;
+        padding: 10px; /* Espacio entre el texto y el borde */
+        text-align: center;
+    }
+    th {
+        background-color: #34495e;
+        color: white;
+    }

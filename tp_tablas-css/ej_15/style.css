@@ -1,0 +1,13 @@
+/* El contenedor es el truco mágico para celulares */
+    .tabla-responsiva {
+        width: 100%;
+        overflow-x: auto; /* Si no entra, aparece barra de scroll horizontal */
+        border: 1px solid #ccc;
+    }
+    table {
+        width: 100%;
+        min-width: 600px; /* Fuerza a la tabla a no achicarse menos de esto */
+        border-collapse: collapse;
+    }
+    th, td { padding: 10px; border: 1px solid #eee; text-align: left; }
+    th { background-color: #43a047; color: white; }

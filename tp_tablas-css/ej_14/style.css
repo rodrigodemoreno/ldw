@@ -1,0 +1,15 @@
+.contenedor-tabla {
+        border-radius: 8px;       /* Bordes redondeados externos */
+        overflow: hidden;         /* Corta las esquinas rectas de las celdas internas */
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Sombra elegante */
+        max-width: 450px;
+        margin: 20px auto;        /* Centra la tabla en la pantalla */
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    th, td { padding: 12px 15px; text-align: left; }
+    th { background-color: #e91e63; color: white; }
+    td { border-bottom: 1px solid #eee; }

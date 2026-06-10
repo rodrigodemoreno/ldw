@@ -1,0 +1,26 @@
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse; /* Evita el doble borde */
+    font-family: Arial, sans-serif;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid #000000; /* Borde negro definido */
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #e0e0e0; /* Gris para diferenciar la cabecera */
+}
+
+tfoot {
+    background-color: #f5f5f5; /* Fondo tenue para los totales */
+}
